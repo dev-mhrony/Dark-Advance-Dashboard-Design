@@ -75,7 +75,7 @@
           </a>
 
           <div class="navbar-nav w-100">
-            <a href="index.html" class="nav-item nav-link">
+            <a href="index.html" class="nav-item nav-link active">
               <i class="fa fa-tachometer-alt me-2"></i>Dashboard</a
             >
             <div class="nav-item dropdown">
@@ -122,7 +122,7 @@
             <a href="" class="nav-item nav-link"
               ><i class="fa fa-table me-2"></i>Resent Work</a
             >
-            <a href="" class="nav-item nav-link active"
+            <a href="" class="nav-item nav-link"
               ><i class="fa fa-chart-bar me-2"></i>Happy Clint</a
             >
             <a href="" class="nav-item nav-link"
@@ -281,92 +281,89 @@
           </div>
         </nav>
         <!-- Navbar End -->
-
-        <!-- Recent Sales Start -->
+        <!-- Form Start -->
         <div class="container-fluid pt-4 px-4">
-          <div class="bg-secondary text-center rounded p-4">
-            <div class="d-flex align-items-center justify-content-between mb-4">
-              <h6 class="mb-0">Happy Clints</h6>
-              <a href="">Show All</a>
-            </div>
-            <div class="table-responsive">
-              <table
-                class="table text-start align-middle table-bordered table-hover mb-0"
-                style="width: 100%"
-              >
-                <thead>
-                  <tr class="text-white">
-                    <th scope="col" style="width: 5%; text-align: center">
-                      SN
-                    </th>
-                    <th scope="col" style="width: 12%">Clint Name</th>
-                    <th scope="col" style="width: 15%">Clint Address</th>
-                    <th scope="col" style="width: 35%">Message</th>
-                    <th scope="col" style="width: 10%">Clint Photo</th>
-                    <th scope="col" style="width: 10%">Date</th>
-                    <th scope="col" style="width: 13%">Status</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td style="text-align: center">01</td>
-                    <td>Rohim</td>
-                    <td>Uk</td>
-                    <td>He is a best Selar</td>
-                    <td>123.jpg</td>
-                    <td>17 July 2022</td>
+          <div class="row g-4">
+            <div class="col-sm-12">
+              <div class="bg-secondary rounded h-100 p-4">
+                <h6 class="mb-4">Welcome to Social Media Section</h6>
+                <form>
+                  <div class="row mb-3">
+                    <label for="facebook" class="col-sm-2 col-form-label"
+                      >Facebook</label
+                    >
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="facebook" />
+                    </div>
+                  </div>
 
-                    <td>
-                      <a
-                        class="btn btn-sm"
-                        style="background: rgb(7, 156, 255); color: aliceblue"
-                        href=""
-                        >Update</a
-                      >
-                      <a class="btn btn-sm btn-primary" href="">Delete</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style="text-align: center">02</td>
-                    <td>Korim</td>
-                    <td>US</td>
-                    <td>Best Seler</td>
-                    <td>123.jpg</td>
-                    <td>15 July 2022</td>
-                    <td>
-                      <a
-                        class="btn btn-sm"
-                        style="background: rgb(7, 156, 255); color: aliceblue"
-                        href=""
-                        >Update</a
-                      >
-                      <a class="btn btn-sm btn-primary" href="">Delete</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style="text-align: center">03</td>
-                    <td>Alom</td>
-                    <td>India</td>
-                    <td>Nice</td>
-                    <td>123.jpg</td>
-                    <td>12 Jun 2022</td>
-                    <td>
-                      <a
-                        class="btn btn-sm"
-                        style="background: rgb(7, 156, 255); color: aliceblue"
-                        href=""
-                        >Update</a
-                      >
-                      <a class="btn btn-sm btn-primary" href="">Delete</a>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+                  <div class="row mb-3">
+                    <label for="twitter" class="col-sm-2 col-form-label"
+                      >Twitter</label
+                    >
+                    <div class="col-sm-10">
+                      <input type="url" class="form-control" id="twitter" />
+                    </div>
+                  </div>
+
+                  <div class="row mb-3">
+                    <label for="GitHub" class="col-sm-2 col-form-label"
+                      >GitHub</label
+                    >
+                    <div class="col-sm-10">
+                      <input type="url" class="form-control" id="GitHub" />
+                    </div>
+                  </div>
+
+                  <div class="row mb-3">
+                    <label for="Instragram" class="col-sm-2 col-form-label"
+                      >Instragram</label
+                    >
+                    <div class="col-sm-10">
+                      <input type="url" class="form-control" id="Instragram" />
+                    </div>
+                  </div>
+
+                  <div class="row mb-3">
+                    <label for="Youtube" class="col-sm-2 col-form-label"
+                      >Youtube</label
+                    >
+                    <div class="col-sm-10">
+                      <input type="url" class="form-control" id="Youtube" />
+                    </div>
+                  </div>
+
+                  <div class="row mb-3">
+                    <label for="Stack Overflow" class="col-sm-2 col-form-label"
+                      >Stack Overflow</label
+                    >
+                    <div class="col-sm-10">
+                      <input
+                        type="url"
+                        class="form-control"
+                        id="Stack Overflow"
+                      />
+                    </div>
+                  </div>
+
+                  <button
+                    type="submit"
+                    class="btn btn-primary"
+                    style="
+                      margin-left: 50%;
+                      background: rgb(7, 156, 255);
+                      color: aliceblue;
+                      border-color: aliceblue;
+                    "
+                  >
+                    Update Info
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
-        <!-- Recent Sales End -->
-
+        <!-- Form End -->
         <!-- Footer Start -->
         <div class="container-fluid pt-4 px-4">
           <div class="bg-secondary rounded-top p-4">
